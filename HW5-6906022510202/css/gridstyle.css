@@ -1,0 +1,160 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 4px;
+  font-family: Arial, "Tahoma", sans-serif;
+  background: #fff;
+  color: #111;
+}
+.page {
+  margin: 10px;
+}
+.header {
+  height: 112px;
+  overflow: hidden;
+  background: #0d1120;
+}
+.header img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.navbar {
+  margin-top: 12px;
+  min-height: 44px;
+  padding: 0 18px;
+  display: flex;
+  align-items: center;
+  gap: 28px;
+  background: #83c8ee;
+}
+.navbar a {
+  color: #111;
+  text-decoration: none;
+  font-size: 15px;
+}
+.navbar a:hover {
+  text-decoration: underline;
+}
+.layout {
+  display: grid;
+  grid-template-columns: minmax(0, 3fr) minmax(280px, 1fr);
+  gap: 16px;
+  margin-top: 14px;
+}
+.main {
+  min-width: 0;
+}
+.section {
+  background: #83c8ee;
+  padding: 10px;
+  margin-bottom: 14px;
+}
+.section h1,
+.section h2,
+.section p {
+  margin-top: 0;
+}
+.section h1 {
+  font-size: 22px;
+  margin-bottom: 12px;
+}
+.section h2 {
+  font-size: 19px;
+  margin-bottom: 12px;
+}
+.section p {
+  font-size: 14px;
+  line-height: 1.5;
+}
+.hero-image,
+.product-image {
+  display: block;
+  width: min(100%, 520px);
+  height: auto;
+  margin-top: 10px;
+}
+.product-image {
+  width: min(100%, 430px);
+}
+.register {
+  background: #83c8ee;
+  padding: 28px 14px;
+  margin-bottom: 14px;
+}
+.register h2 {
+  font-size: 16px;
+  margin: 0 0 22px;
+}
+.form-group {
+  margin-bottom: 10px;
+}
+.form-group label,
+.form-title {
+  display: block;
+  font-weight: 700;
+  font-size: 14px;
+  margin-bottom: 6px;
+}
+input[type="text"],
+input[type="email"],
+input[type="password"],
+select {
+  width: 100%;
+  height: 29px;
+  padding: 4px 8px;
+  border: 1px solid #c8c8c8;
+  background: #fff;
+}
+.radio-list {
+  display: grid;
+  gap: 5px;
+  margin-bottom: 10px;
+}
+.check-row {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px;
+  font-size: 13px;
+}
+button {
+  width: 100%;
+  height: 31px;
+  border: 0;
+  background: #0000a8;
+  color: #fff;
+  font-weight: 700;
+  cursor: pointer;
+}
+button:hover {
+  background: #000078;
+}
+.note {
+  margin-top: 14px;
+  font-size: 12px;
+  color: #777;
+}
+.footer {
+  min-height: 68px;
+  padding: 12px 28px;
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: center;
+  gap: 20px;
+  background: #0d1120;
+  color: #bfc5d3;
+}
+.footer p {
+  margin: 0;
+  font-size: 12px;
+}
+
+.footer img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
